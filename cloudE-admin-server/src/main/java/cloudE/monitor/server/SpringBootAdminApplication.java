@@ -15,6 +15,17 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 @EnableAdminServer
 public class SpringBootAdminApplication {
+    /**
+     * 方法说明：
+    
+     *
+     * Author：        hemin                
+     * Create Date：   2019年6月15日 下午10:26:20
+     * History:  2019年6月15日 下午10:26:20   hemin   Created.
+     *主要监控文件
+     * @param args
+     *
+     */
     public static void main(String[] args) {
         SpringApplication.run(SpringBootAdminApplication.class, args);
     }

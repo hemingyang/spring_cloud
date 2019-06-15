@@ -31,7 +31,7 @@ public class Swagger2 {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("用户中心")
-                .contact("vangao1989@126.com")
+                .contact("hemingyangyang@gmail.com")
                 .version("1.0")
                 .build();
     }
